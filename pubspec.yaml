@@ -1,0 +1,30 @@
+name: walli
+description: "A wallpaper project"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http:
+  external_path:
+  cached_network_image:
+  flutter_staggered_grid_view:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  fonts:
+    - family: FontBold
+      fonts:
+        - asset: assets/fonts/bold.ttf
+    - family: FontFont
+      fonts:
+        - asset: assets/fonts/Font.ttf
+  uses-material-design: true
